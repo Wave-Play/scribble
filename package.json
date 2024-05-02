@@ -1,0 +1,57 @@
+{
+	"name": "scribble",
+	"description": "",
+	"version": "1.0.0",
+	"type": "module",
+	"private": true,
+	"keywords": [
+		"api",
+		"bot",
+		"discord",
+		"discord.js",
+		"http",
+		"robo",
+		"robo.js",
+		"server",
+		"typescript",
+		"web"
+	],
+	"scripts": {
+		"build": "robo build",
+		"deploy": "robo deploy",
+		"dev": "robox dev --tunnel",
+		"doctor": "robo doctor",
+		"invite": "robo invite",
+		"lint": "npm run lint:eslint && npm run lint:style",
+		"lint:eslint": "eslint . --ext js,jsx,ts,tsx",
+		"lint:style": "prettier --write .",
+		"start": "robo start"
+	},
+	"dependencies": {
+		"@discord/embedded-app-sdk": "^1.2.0",
+		"@robojs/ai": "link:/Users/pkmmte/Documents/GitHub/robo/packages/plugin-ai",
+		"@robojs/server": "link:/Users/pkmmte/Documents/GitHub/robo/packages/plugin-api",
+		"@robojs/sync": "link:/Users/pkmmte/Documents/GitHub/robo/packages/plugin-sync",
+		"discord.js": "14.14.1",
+		"express": "^4.19.2",
+		"react": "18.2.0",
+		"react-dom": "18.2.0",
+		"react-loader-spinner": "^6.1.6",
+		"react-sketch-canvas": "7.0.0-next.3",
+		"robo.js": "link:/Users/pkmmte/Documents/GitHub/robo/packages/robo"
+	},
+	"devDependencies": {
+		"@swc/core": "^1.4.13",
+		"@types/express": "^4.17.21",
+		"@types/node": "^20.12.2",
+		"@types/react": "18.2.25",
+		"@types/react-dom": "^18.2.25",
+		"@typescript-eslint/eslint-plugin": "^7.4.0",
+		"@typescript-eslint/parser": "^7.4.0",
+		"@vitejs/plugin-react": "^4.2.1",
+		"eslint": "^8.57.0",
+		"prettier": "^3.2.5",
+		"typescript": "^5.4.3",
+		"vite": "^5.2.8"
+	}
+}
