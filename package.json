@@ -29,16 +29,16 @@
 	},
 	"dependencies": {
 		"@discord/embedded-app-sdk": "^1.2.0",
-		"@robojs/ai": "link:/Users/pkmmte/Documents/GitHub/robo/packages/plugin-ai",
-		"@robojs/server": "link:/Users/pkmmte/Documents/GitHub/robo/packages/plugin-api",
-		"@robojs/sync": "link:/Users/pkmmte/Documents/GitHub/robo/packages/plugin-sync",
+		"@robojs/ai": "^0.5.2",
+		"@robojs/server": "^0.4.5",
+		"@robojs/sync": "^0.1.0",
 		"discord.js": "14.14.1",
 		"express": "^4.19.2",
 		"react": "18.2.0",
 		"react-dom": "18.2.0",
 		"react-loader-spinner": "^6.1.6",
 		"react-sketch-canvas": "7.0.0-next.3",
-		"robo.js": "link:/Users/pkmmte/Documents/GitHub/robo/packages/robo"
+		"robo.js": "^0.10.6"
 	},
 	"devDependencies": {
 		"@swc/core": "^1.4.13",
